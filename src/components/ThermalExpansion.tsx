@@ -149,6 +149,22 @@ export default function ThermalExpansion() {
         </button>
       </Card>
 
+      {/* Key Definition: Temperature at Particle Level */}
+      <Card className="p-5 bg-gradient-to-r from-amber-950/50 to-orange-950/50 border-amber-500/30 mb-4">
+        <h4 className="font-bold text-amber-300 mb-3 flex items-center gap-2">
+          🌡️ What is Temperature? (At the Particle Level)
+        </h4>
+        <p className="text-sm text-muted-foreground">
+          <strong className="text-amber-400">Temperature</strong> is a measure of the 
+          <strong className="text-orange-300"> average kinetic energy</strong> of particles (molecules) in a substance.
+        </p>
+        <ul className="mt-3 text-sm text-muted-foreground space-y-1">
+          <li>• <strong className="text-sky-400">Cold</strong> = molecules move slowly, have LOW kinetic energy</li>
+          <li>• <strong className="text-rose-400">Hot</strong> = molecules move fast, have HIGH kinetic energy</li>
+          <li>• Temperature tells us HOW FAST molecules are vibrating and moving on average</li>
+        </ul>
+      </Card>
+
       {/* Explanation Cards */}
       <div className="grid md:grid-cols-2 gap-4">
         <Card className="p-5 bg-gradient-to-br from-blue-950/50 to-slate-950/50 border-blue-500/20">
